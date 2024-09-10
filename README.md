@@ -36,7 +36,7 @@ The PAIA is determined using the following steps:
 
 ## Try the PAIA Application
 
-You can try the PAIA application using this [link](https://wag001.shinyapps.io/paia/). For faster performance and full functionality, follow the steps below to run the PAIA application locally.
+You can try the PAIA application [here](https://wag001.shinyapps.io/paia/). For faster performance and full functionality, follow the steps below to run the PAIA application locally.
 
 ## Installation and Requirements
 
