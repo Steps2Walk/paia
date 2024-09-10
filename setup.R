@@ -13,6 +13,11 @@ if(!require("jpeg")){
   library("jpeg")
 }
 
+if(!require("spdep")){
+  install.packages("spdep")
+  library("spdep")
+}
+
 if(!require("DT")){
   install.packages("DT")
   library("DT")

@@ -34,6 +34,10 @@ The PAIA is determined using the following steps:
 3. **Mathematical Formulation:**
    - The optimal rotation angle is determined using a sum of squared errors (SSE) optimization technique to find the minimum difference between the rotated enlarged contour and the ideal Standard Circle.
 
+## Try the PAIA Application
+
+You can try the PAIA application using this [link](https://wag001.shinyapps.io/paia/). For faster performance and full functionality, follow the steps below to run the PAIA application locally.
+
 ## Installation and Requirements
 
 To use the PAIA tool, you need to have R and Shiny installed. You also need the following packages:
@@ -74,7 +78,7 @@ runApp("app.R")
      - **Positional:** Mark the positional reference points.
      - **Calcaneal Tuberosity:** Mark the contour of the calcaneal tuberosity.
    - Click on the X-ray image to place the selected markers.
-   - An example annotation looks like this: ![img](data/demo.png)
+   - An example annotation looks like this: ![img](method/demo.png)
 3. **Clear Annotations:**
    - Click the "Clear All Annotations" button to reset the markers if needed.
 4. **Calculate PAIA:**
