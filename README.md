@@ -104,7 +104,7 @@ For more detailed instructions and explanations, please refer to the [PAIA GitHu
 
 ## Methodological Details
 
-For a comprehensive understanding of the methodology, please refer to the [methods.md](methods.md) as well as the manuscript: <br>
+For a comprehensive understanding of the methodology, please refer to the [detailed methods](method/paia_method.pdf) as well as the manuscript: <br>
 "Pathologic Achilles Insertion Angle: A Novel Radiographic Metric to help Evaluate and Treat Insertional Achilles Tendinopathy" by Wanjun Gu, Melissa Carpenter, Mingjie Zhu, Ankit Hirpara, Kenneth J. Hunt, Mark S. Myerson, and Shuyuan Li.
 
 ## Contributors
