@@ -1,8 +1,4 @@
-library(shiny)
-library(shinythemes)
-library(jpeg)
-library(DT)
-
+source("setup.R")
 source("calc_paia.R")
 
 ui = fluidPage(

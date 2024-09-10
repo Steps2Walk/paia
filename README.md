@@ -38,20 +38,12 @@ The PAIA is determined using the following steps:
 
 To use the PAIA tool, you need to have R and Shiny installed. You also need the following packages:
 
-- `shiny`
-- `shinythemes`
-- `jpeg`
-- `DT`
-- `plotly`
+`shiny`, `shinythemes`, `jpeg`, `DT`, `ggplot2`, `ggpubr`, `dplyr`, and `plotly`.
 
 You can install these packages using:
 
 ```
-r
-
-
-Copy code
-install.packages(c("shiny", "shinythemes", "jpeg", "DT", "plotly"))
+install.packages(c("shiny", "shinythemes", "jpeg", "DT", "ggplot2", "dplyr", "plotly"))
 ```
 
 ## Usage
@@ -61,10 +53,6 @@ install.packages(c("shiny", "shinythemes", "jpeg", "DT", "plotly"))
 1. Clone or download the repository:
 
 ```
-bash
-
-
-Copy code
 git clone https://github.com/Broccolito/paia.git
 cd paia
 ```
@@ -72,10 +60,6 @@ cd paia
 1. Run the Shiny app in R:
 
 ```
-r
-
-
-Copy code
 library(shiny)
 runApp("app.R")
 ```
@@ -90,6 +74,7 @@ runApp("app.R")
      - **Positional:** Mark the positional reference points.
      - **Calcaneal Tuberosity:** Mark the contour of the calcaneal tuberosity.
    - Click on the X-ray image to place the selected markers.
+   - An example annotation looks like this: ![img](data/demo.png)
 3. **Clear Annotations:**
    - Click the "Clear All Annotations" button to reset the markers if needed.
 4. **Calculate PAIA:**

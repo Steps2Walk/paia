@@ -1,8 +1,3 @@
-library(ggplot2)
-library(ggpubr)
-library(dplyr)
-library(plotly)
-
 calc_paia = function(points_scale,
                      points_positional,
                      points_tuberosity){
