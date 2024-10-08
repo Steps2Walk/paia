@@ -29,7 +29,8 @@ ui = fluidPage(
                  actionButton("run", "Calculate PAIA")
     ),
     mainPanel(
-      plotOutput("image_plot", click = "plot_click", width = "100%", height = "500px"),
+      plotOutput("image_plot", click = "plot_click", brush = "plot_brush",
+                 width = "100%", height = "500px"),
       uiOutput("paia_result")
     )
   )
