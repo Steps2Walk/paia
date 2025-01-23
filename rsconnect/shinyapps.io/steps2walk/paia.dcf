@@ -1,0 +1,12 @@
+name: paia
+title: paia
+username: steps2walk
+account: steps2walk
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13794858
+bundleId: 9691104
+url: https://steps2walk.shinyapps.io/paia/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
